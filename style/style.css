@@ -126,9 +126,10 @@ a{
 .content p{
     margin: 20px 40px 40px;
     color: white;
-    font-size: 26px;
-    font-family: "Passions Conflict", serif;
-    font-style: normal;
+    font-size: 11px;
+    font-family: "Lugrasimo", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header::before{
@@ -171,10 +172,9 @@ h2{
 .title p{
     font-size: 14px;
     color: #464a2c;
-    font-weight: 600;
-    font-family: "Passions Conflict", serif;
-    font-style: normal;
-    font-size: 30px;
+    font-family: "Lugrasimo", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .contant2{
@@ -194,9 +194,8 @@ h2{
     padding-left: 10px;
     font-weight: 500;
     line-height: 2;
-    font-family: "Passions Conflict", serif;
+    font-family: "Lugrasimo", serif;
     font-style: normal;
-    font-size: 30px;
 }
 
 .btn-secondary{
@@ -239,18 +238,19 @@ h3{
 
 .items p{
     padding: 30px ;
-    font-weight: 300;
     margin-bottom: 20px;
     line-height: 1.6;
     font-family: "Passions Conflict", serif;
+    font-family: "Lugrasimo", serif;
+    font-weight: 400;
     font-style: normal;
-    font-size: 25px;
     color: rgb(255, 255, 255);
 }
 .items span{
     letter-spacing: 5px;
     margin-left: 5px;
-    font-family: "Passions Conflict", serif;
+    font-family: "Lugrasimo", serif;
+    font-weight: 400;
     font-style: normal;
     margin: 20px;
     color: rgb(236, 236, 185);
@@ -292,14 +292,15 @@ h3{
 .meal span{
     position:absolute;
     padding:40px;
-    font-family: "Passions Conflict", serif;
+    font-family: "Lugrasimo", serif;
+    font-weight: 400;
     font-style: normal;
     font-size: 23px;
 }
 #MENU p{
-    font-family: "Passions Conflict", serif;
+    font-family: "Lugrasimo", serif;
+    font-weight: 400;
     font-style: normal;
-    font-size: 28px;
 }
 #MENU .btn{
     color:rgb(236, 236, 185);
@@ -340,8 +341,8 @@ h3{
     font-size: 25px;
     margin: 15px;
     color: #000000;
+    font-family: "Lugrasimo", serif;
     font-weight: 400;
-    font-family: "Passions Conflict", serif;
     font-style: normal;
 }
 #CONTACT{
