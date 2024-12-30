@@ -216,6 +216,7 @@ h2{
     height: 80vh;
     justify-content: center;
     display: flex;
+    margin-bottom:100px;
 }
 .items{
     display:flex;
