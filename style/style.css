@@ -306,6 +306,8 @@ h3{
     border: 1px solid rgb(236, 236, 185);
     margin-top: 6rem;
     background-color: transparent;
+    margin-bottom:8rem;
+    margin-left:7rem;
 }
 
 #MENU .btn:hover{
@@ -406,8 +408,7 @@ form .btn:hover{
 
 
 footer{
-    background-color: rgb(236, 236, 185);
-    color: #000000;
+    color: rgb(236, 236, 185);
     text-align: center;
     letter-spacing: 1px;
     padding: 15px;
