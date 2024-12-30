@@ -1,9 +1,6 @@
 body{
-    background: url('./home.jpg') center center/cover no-repeat;
+    background:black;
     color: rgb(194, 194, 178);
-    position: relative;
-    z-index: 0;
-
 }
 html,body{
     height: 100%;
@@ -38,14 +35,6 @@ p{
     font-weight: 600;
     margin: 30px;
 }
-
-
-body::before{
-    content:"";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
     width: 100%;
     background: rgba(0, 0, 0, 0.6);
     z-index: -1;
