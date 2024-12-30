@@ -2,10 +2,6 @@ body{
     background:black;
     color: rgb(194, 194, 178);
 }
-html,body{
-    height: 100%;
-    width: 100%;
-}
 h1{
     color:rgb(194, 207, 119);
     text-align: center;
@@ -17,11 +13,11 @@ p{
     font-weight: 500;
     line-height: 50px;
     text-align: center;
-    margin: 30px ;
-    color: rgb(237, 221, 221);
+    margin: 100px ;
+    padding 50px;
+    color: rgb(255, 255, 255);
     border: 1px solid rgb(194, 207, 119);
     border-radius: 3px;
-    padding: 50px;
     word-spacing: 10px;
     font-family: "Passions Conflict", serif;
     font-style: normal;
@@ -35,8 +31,15 @@ p{
     font-weight: 600;
     margin: 30px;
 }
-    width: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: -1;
+.left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-
+.left img{
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+}
