@@ -1,4 +1,3 @@
-
 *{
     padding:0;
     margin:0;
@@ -21,6 +20,7 @@ body{
     border-radius: 15px;
 }
 
+
 #booktable{
     display: inline-block;
     padding: 15px 30px;
@@ -32,6 +32,7 @@ body{
 
 #booktable:hover{
     background-color: rgb(236, 236, 185);
+    color: #000000;
 }
 
 
@@ -167,7 +168,7 @@ h2{
     font-size: 40px;
     color:rgb(236, 236, 185);
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .title p{
     font-size: 14px;
@@ -198,15 +199,16 @@ h2{
     font-style: normal;
 }
 
-.btn-secondary{
+.btn1{
     color:rgb(236, 236, 185);
     border: 1px solid rgb(236, 236, 185);
     margin-top: 2rem;
     background-color: transparent;
 }
 
-.btn-secondary:hover{
-    background-color: rgb(1, 1, 0);
+.btn1:hover{
+    background-color: rgb(236, 236, 185);
+    color: #000000;
 }
 
 #OFFERS{
@@ -286,16 +288,18 @@ h3{
     padding-bottom: 10px;
     font-weight: 600;
     letter-spacing: 2px; 
-    text-align: left;
+    text-align: center;
     position: relative;
 }
-.meal span{
+.meal h3 span{
     position:absolute;
-    padding:40px;
+    margin-right: 50px;
+    padding: 30px;
     font-family: "Lugrasimo", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 23px;
+    text-align: center;
 }
 #MENU p{
     font-family: "Lugrasimo", serif;
@@ -312,7 +316,8 @@ h3{
 }
 
 #MENU .btn:hover{
-    background-color: rgb(1, 1, 0);
+    background-color:rgb(236, 236, 185);
+    color: #000000;
 }
 
 #daytime{
